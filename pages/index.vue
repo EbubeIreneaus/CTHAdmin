@@ -1,7 +1,15 @@
 <template>
-    <div class="w-screen h-screen dark:bg-slate-900">
-        <h2>{{ $colorMode.preference }}</h2>
-        <button @click="$colorMode.preference = 'light'">change mode</button>
+    <div class="">
+        <div class="block">
+            <h1 class="font-bold text-2xl p-5">DASHBOARD</h1>
+            <!-- <NuxtLink to="/" class="float-rignt p-5 inline-block font-bold">Home</NuxtLink> -->
+        </div>
+
+        <div class="block ">
+            <div>
+                <InfoUI />
+            </div>
+        </div>
     </div>
 </template>
 

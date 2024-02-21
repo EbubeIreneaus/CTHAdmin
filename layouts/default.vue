@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-screen w-screen bg-[#DADEE1] dark:bg-slate-950 dark:text-light-bg"
+    class="min-h-screen w-screen bg-[#DADEE1] dark:bg-slate-900 dark:text-light-bg"
   >
     <div class="flex">
         <aside class="w-[20%] fixed z-40 h-screen bg-light-bg dark:bg-slate-950">
