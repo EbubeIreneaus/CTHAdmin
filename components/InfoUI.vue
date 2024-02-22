@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="grid grid-cols-2 gap-5 max-w-md w-fit">
-            <div class="bg-white dark:bg-slate-950 dark:text-white rounded-xl  py-7 px-5">
+        <div class="grid md:grid-cols-2 gap-5 lg:max-w-md ">
+            <div class="bg-white dark:bg-slate-950 dark:text-white rounded-xl  py-7 px-5  ">
                 <div class="w-full py-3 rounded-full bg-green-500 mb-3"></div>
                 <h2 class="text-2xl font-bold">100</h2>
                 <p class="font-semibold text-sm">Active Project</p>

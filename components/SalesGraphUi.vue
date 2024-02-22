@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="max-h-[400px] bg-white dark:bg-slate-950 rounded-2xl p-1">
+        <div class="max-h-[400px] bg-white dark:bg-slate-950 rounded-2xl p-1 ">
             <ClientOnly>
                 <nuxt-plotly :data="data" :layout="layout" :config="config" style="width:100%; max-height:370px;">
 

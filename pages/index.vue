@@ -5,12 +5,18 @@
             <!-- <NuxtLink to="/" class="float-rignt p-5 inline-block font-bold">Home</NuxtLink> -->
         </div>
 
-        <div class="flex px-5 gap-5">
-            <div class="flex-grow ">
+        <div class="flex flex-col lg:flex-row justify-center px-5 gap-5 ">
+            <div class=" ">
                 <SalesGraphUi />
             </div>
-            <div>
+            <div class="">
                 <InfoUI />
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <StaffUI />
             </div>
         </div>
     </div>
