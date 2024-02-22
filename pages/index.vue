@@ -5,7 +5,10 @@
             <!-- <NuxtLink to="/" class="float-rignt p-5 inline-block font-bold">Home</NuxtLink> -->
         </div>
 
-        <div class="block ">
+        <div class="flex px-5 gap-5">
+            <div class="flex-grow ">
+                <SalesGraphUi />
+            </div>
             <div>
                 <InfoUI />
             </div>
