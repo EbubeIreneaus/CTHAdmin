@@ -22,6 +22,22 @@
                 <WorldClient />
             </div>
         </div>
+        <div class="mb-5 flex gap-5 px-5">
+            <div class="w-full">
+                <Activity />
+            </div>
+            <div class="w-full flex-grow">
+                <PageVisit />
+            </div>
+        </div>
+        <div class="mb-5 flex gap-5 px-5">
+            <div class="w-full">
+                <Templates />
+            </div>
+            <div class="w-full">
+                <Portfolio />
+            </div>
+        </div>
     </div>
 </template>
 

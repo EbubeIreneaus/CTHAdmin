@@ -4,17 +4,23 @@
   >
     <div class="flex">
         <aside class="max-w-0 lg:max-w-[20%] w-full overflow-hidden  fixed z-40 h-screen bg-light-bg dark:bg-slate-950 transition-all duration-300 ease-in-out">
-            <div class="max-h-[100px] py-6 bg-white/40 dark:bg-slate-800 flex lg:block justify-between px-5">
+            <div class="max-h-[100px] py-6 bg-slate-300 dark:bg-slate-800 flex lg:block justify-between px-5">
               <h2 class="text-2xl font-bold text-center text-slate-900 dark:text-white invisible">Admin Panel</h2>
               <button class="border border-slate-500 px-3 py-2 rounded-xl" @click="navBarClick" v-if="device.isMobileOrTablet">
                 <i class="fas fa-close"></i>
                 </button>
             </div>
-            <ul class="*:py-2 *:rounded-xl *:mb-2 relative">
+            <ul class="*:py-2 *:rounded-xl *:mb-2 relative my-5">
                     <li class="hover:bg-white/50 dark:hover:bg-slate-600 group relative">
                         <NuxtLink to="/" class="flex items-center gap-7 px-5">
                             <div><i class="fas fa-home-lg side-icon  p-3 rounded-full"></i></div>
                             <div class="link-txt">Home</div>
+                        </NuxtLink>
+                    </li>
+                    <li class="hover:bg-white/50 dark:hover:bg-slate-600 group relative">
+                        <NuxtLink to="/" class="flex items-center gap-7 px-5">
+                            <div><i class="fas fa-money-bill side-icon p-3 rounded-full"></i></div>
+                            <div class="link-txt">Sales</div>
                         </NuxtLink>
                     </li>
                     <li class="hover:bg-white/50 dark:hover:bg-slate-600 group relative">
@@ -33,6 +39,18 @@
                         <NuxtLink to="/" class="flex gap-7 px-5 items-center">
                             <div><i class="fas fa-file-code side-icon p-3 rounded-full"></i></div>
                             <div class="link-txt">Portfolio</div>
+                        </NuxtLink>
+                    </li>
+                    <li class="hover:bg-white/50 dark:hover:bg-slate-600 group relative">
+                        <NuxtLink to="/" class="flex gap-7 px-5 items-center">
+                            <div><i class="fas fa-list side-icon p-3 rounded-full"></i></div>
+                            <div class="link-txt">Todo</div>
+                        </NuxtLink>
+                    </li>
+                    <li class="hover:bg-white/50 dark:hover:bg-slate-600 group relative">
+                        <NuxtLink to="/" class="flex gap-7 px-5 items-center">
+                            <div><i class="fas fa-coins side-icon p-3 rounded-full"></i></div>
+                            <div class="link-txt">Finance</div>
                         </NuxtLink>
                     </li>
             </ul>
@@ -84,6 +102,10 @@
         </div>
       </header>
         <slot></slot>
+
+        <footer class="w-full bg-white dark:bg-slate-950 py-5">
+           <p class="text-center italic">&copy; Chijison Tech Hub</p>
+        </footer>
       </div>
     </div>
     
